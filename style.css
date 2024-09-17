@@ -192,7 +192,7 @@ p{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 2px rgb(182, 58, 58) solid;
+  padding-bottom: 50px;
 }
 .page-2-button,#more-button{
   padding:10px;
@@ -805,3 +805,163 @@ background-color:#d4d4d4;
   background-color: #2b368c;
   color: white;
 }
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* FOR SERVICES OPTIONS */
+/* Container for pricing cards */
+.pricecard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual card container */
+.pricing-card {
+  flex: 1 1 calc(25% - 20px); /* Adjust the width for responsiveness */
+  max-width: 300px; /* Set a max width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #cac1c1;
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Card content styling */
+.pricecard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual card container */
+.pricing-card {
+  flex: 1 1 calc(25% - 20px); /* Adjust the width for responsiveness */
+  max-width: 300px; /* Set a max width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Card content styling */
+.card {
+  padding: 20px;
+}
+
+.package-info {
+  text-align: center;
+  border-bottom: 1px solid #444444; /* Light border for separation */
+  padding-bottom: 15px;
+}
+
+/* Package-specific styles */
+.basic-package .package-name {
+  font-size: 1.5em;
+  margin: 0;
+  color: #007bff; /* Blue for Basic Package */
+}
+
+.basic-package .package-price {
+  font-size: 2em;
+  margin: 0;
+  color: #007bff; /* Blue for price */
+  font-weight: bold;
+}
+
+.deluxe-package .package-name {
+  font-size: 1.5em;
+  margin: 0;
+  color: #28a745; /* Green for Deluxe Package */
+}
+
+.deluxe-package .package-price {
+  font-size: 2em;
+  margin: 0;
+  color: #28a745; /* Green for price */
+  font-weight: bold;
+}
+
+.premium-package .package-name {
+  font-size: 1.5em;
+  margin: 0;
+  color: #ffc107; /* Yellow for Premium Package */
+}
+
+.premium-package .package-price {
+  font-size: 2em;
+  margin: 0;
+  color: #ffc107; /* Yellow for price */
+  font-weight: bold;
+}
+
+.luxury-package .package-name {
+  font-size: 1.5em;
+  margin: 0;
+  color: #dc3545; /* Red for Luxury Package */
+}
+
+.luxury-package .package-price {
+  font-size: 2em;
+  margin: 0;
+  color: #dc3545; /* Red for price */
+  font-weight: bold;
+}
+
+/* Shared description styling */
+.package-desc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.package-desc li {
+  border-bottom: 1px solid #ddd; /* Light border for items */
+  padding: 10px 0;
+  text-align: center;
+  color: #555;
+}
+/* See More Button Container Styling */
+.see-more-btn-container {
+  text-align: center;
+  margin-top: 20px; /* Add some space above the button */
+}
+
+/* See More Button Styling */
+.see-more-btn {
+  display: flex;
+  background-color: #e91e63; /* Button background color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-btn:hover {
+  background-color: #007bff
+}
+.btn-container{
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+
